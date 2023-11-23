@@ -119,9 +119,9 @@ network_configuration:
             customer_asn: '65000'
             display_name: vision_fc_vc_01
             gateway_key: DRG-HUB-KEY
-            provider_service_key: VISION-FC-VC-01-EQUINIX-FABRIC-KEY
-            provision_fc_virtual_circuit: false
-            show_available_fc_virtual_circuit_providers: true
+            provider_service_key: VISION-FC-VC-01-BEZEQ-INTERNATIONAL-BEZEQ-INTERNATIONAL-TECH-L3-KEY
+            provision_fc_virtual_circuit: true
+            show_available_fc_virtual_circuit_providers: false
             type: PRIVATE
         network_firewalls_configuration:
           network_firewall_policies:
