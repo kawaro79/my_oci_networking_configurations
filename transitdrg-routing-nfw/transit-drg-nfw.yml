@@ -45,7 +45,7 @@ network_configuration:
               DRG-HUB-VCN-H-ATTACH-KEY:
                 display_name: drg-hub-vcn-h-attach
                 # Ingress Routes table - entering DRG through DRG-A-VCN-HUB
-                # drg_route_table_key: DRG-RT-HUB-KEY
+                drg_route_table_key: DRG-RT-HUB-KEY
                 network_details:
                   attached_resource_key: VCN-HUB-KEY
                   # Egress Routes table - from DRGA-VCN-HUB to HUB-VCN
