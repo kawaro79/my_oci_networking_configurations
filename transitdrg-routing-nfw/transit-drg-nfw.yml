@@ -57,13 +57,13 @@ network_configuration:
                 display_name: import_hub_rtd
                 distribution_type: IMPORT
                 statements:
-#                  ROUTE-TO-ON-PREMISES-FC-KEY:
-#                   action: ACCEPT
-#                    match_criteria:
-#                      attachment_type: VIRTUAL_CIRCUIT
-#                      drg_attachment_key: VISON-FC-VC-1-KEY
-#                      match_type: DRG_ATTACHMENT_ID
-#                    priority: 40
+                  ROUTE-TO-ON-PREMISES-FC-KEY:
+                    action: ACCEPT
+                    match_criteria:
+                      attachment_type: VIRTUAL_CIRCUIT
+                      drg_attachment_key: VISON-FC-VC-1-KEY
+                      match_type: DRG_ATTACHMENT_ID
+                    priority: 40
                   ROUTE-TO-VCN-A-KEY:
                     action: ACCEPT
                     match_criteria:
